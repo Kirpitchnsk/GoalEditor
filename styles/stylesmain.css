@@ -1,0 +1,146 @@
+/* styles.css */
+
+/* Устанавливаем стиль фона для главного окна */
+MainWindow {
+    background-color: #1f1f1f; /* Темный цвет фона */
+    color: white; /* Цвет текста */
+}
+
+/* Стиль для кнопок */
+QPushButton {
+    background-color: #1f1f1f; /* Темный цвет кнопки */
+    color: white;
+}
+
+/* Стиль для таблицы */
+QTableWidget {
+    alternate-background-color: #2e2e2e; /* Темный цвет фона для четных строк */
+}
+
+/* Стиль для заголовков таблицы */
+QHeaderView::section {
+    background-color: #1f1f1f; /* Темный цвет фона */
+    color: white; /* Цвет текста */
+}
+
+/* Стиль для текстовых полей ввода */
+QLineEdit {
+    padding: 8px;
+    border: 1px solid #333; /* Темный цвет рамки */
+    border-radius: 4px;
+    color: black;
+}
+
+/* Стиль для текстовых областей */
+QTextEdit {
+    padding: 8px;
+    border: 1px solid #333; /* Темный цвет рамки */
+    border-radius: 4px;
+    color: black;
+}
+
+/* Стиль для меток (label) */
+QLabel {
+    font-size: 16px;
+    color: white;
+}
+
+/* Стиль для меню */
+QMenuBar {
+    background-color: #1f1f1f; /* Темный цвет фона */
+}
+
+/* Стиль для элементов меню */
+QMenuBar::item {
+    background-color: #1f1f1f; /* Темный цвет фона */
+    color: white;
+}
+
+/* Стиль для выделенных элементов меню */
+QMenuBar::item:selected {
+    background-color: #333; /* Темный цвет фона для выделенных элементов */
+}
+
+/* Стиль для статусной строки */
+QStatusBar {
+    background-color: #2e2e2e; /* Светлый цвет фона */
+    color: white;
+}
+
+/* Добавляем стиль для выделенных элементов в таблице */
+QTableWidget::item:selected {
+    background-color: #333; /* Темный цвет фона для выделенных элементов в таблице */
+    color: white;
+}
+
+/* Стиль для кнопок в состоянии нажатия */
+QPushButton:pressed {
+    background-color: #333; /* Темный цвет фона для нажатых кнопок */
+}
+
+/* Стиль для кнопок в состоянии наведения курсора */
+QPushButton:hover {
+    background-color: #333; /* Темный цвет фона при наведении курсора */
+}
+
+/* Стиль для главного меню (горизонтального) */
+QMenuBar::item:horizontal {
+    padding: 8px 20px;
+}
+
+/* Стиль для активных вкладок в QTabWidget */
+QTabWidget::tab:selected {
+    background-color: #333; /* Темный цвет фона для активной вкладки */
+}
+
+/* Стиль для всплывающих окон */
+QMessageBox, QInputDialog, QDialog {
+    background-color: #fff; /* Стандартный цвет фона */
+    border: 1px solid #ccc; /* Стандартный цвет рамки */
+    border-radius: 6px;
+}
+
+/* Стиль для заголовка всплывающих окон */
+QMessageBox QLabel, QInputDialog QLabel, QDialog QLabel {
+    font-size: 18px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Стиль для текстовых полей ввода во всплывающих окнах */
+QMessageBox QLineEdit, QInputDialog QLineEdit, QDialog QLineEdit {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+/* Стиль для кнопок во всплывающих окнах */
+QMessageBox QPushButton, QInputDialog QPushButton, QDialog QPushButton {
+    background-color: #ff0000; /* Темный цвет фона кнопки */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Стиль для кнопок во всплывающих окнах в состоянии нажатия */
+QMessageBox QPushButton:pressed, QInputDialog QPushButton:pressed, QDialog QPushButton:pressed {
+    background-color: #ff0000; 
+}
+
+/* Стиль для кнопок во всплывающих окнах в состоянии наведения курсора */
+QMessageBox QPushButton:hover, QInputDialog QPushButton:hover, QDialog QPushButton:hover {
+    background-color: #ff0000; 
+}
+
+/* Остальные стили для всплывающих окон без изменений */
+
+
+/* Остальные стили без изменений */

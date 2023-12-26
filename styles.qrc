@@ -1,0 +1,12 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file>styles/stylesmain.css</file>
+        <file>styles/stylesgoal.css</file>
+        <file>styles/help.html</file>
+        <file>mando.jpg</file>
+        <file>medal.jpg</file>
+        <file>styles/screen.png</file>
+        <file>styles/screen2.png</file>
+    </qresource>
+</RCC>

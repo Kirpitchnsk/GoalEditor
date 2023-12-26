@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>ru.kpda.doc.basic</namespace>
+    <virtualFolder>html</virtualFolder>
+    <filterSection>
+        <toc>
+            <section title="This is the way" ref="help.html"/>
+        </toc>
+
+        <keywords>
+            <keyword name="Goal" ref="help.html"/>
+        </keywords>
+
+        <files>
+            <file>help.html</file>
+        </files>
+    </filterSection>
+
+</QtHelpProject>

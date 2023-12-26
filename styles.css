@@ -1,0 +1,27 @@
+/* Стиль для окна редактирования цели */
+EditOrderDialog {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+/* Стиль для кнопок в окне редактирования цели */
+EditOrderDialog QPushButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Стиль для текстовых полей ввода в окне редактирования цели */
+EditOrderDialog QLineEdit {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+}
